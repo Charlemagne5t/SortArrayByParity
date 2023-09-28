@@ -5,7 +5,7 @@ public class SolutionTest {
     @Test
     public void sortArrayByParityTest1(){
         int[] nums = {3,1,2,4};
-        int[] expected = {4,2, 1,4};
+        int[] expected = {4,2, 1,3};
 
         int[] actual = new Solution().sortArrayByParity(nums);
 
